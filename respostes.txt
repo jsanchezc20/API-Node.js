@@ -1,0 +1,15 @@
+P	Investigueu què fan els fitxers package.json i package-lock.json.
+	R	package.json registra informació de configuració del projecte (nom, versió, llicència…etc) així com les dependències necessàries.
+	R	package-lock.json bloqueja les actualitzacions a les dependències del projecte perquè tots els desenvolupadors facin servir les mateixes versions d’aquestes.
+P	Investigueu què és la carpeta node_modules.
+
+	R	És una carpeta que es crea a la carpeta arrel del nostre projecte quan executem:
+		npm install express
+		Aquesta carpeta conté tots els paquets bàsics que necessitem pel nostre projecte de forma local.
+
+P	Llegir la pàgina 4. D’aquí és important comprendre què són els paràmetres req, res i next.
+	R	req → request, sol·licitud entrant, encapçalats i adreça URL, pot contenir cos amb dades.
+	R	res → response, resposta, escriure info, encapçalats i dades a retornar.
+	R	next() → sol·licitud correcta, llesta per processar. Si no, indicar amb missatge. 
+	
+
