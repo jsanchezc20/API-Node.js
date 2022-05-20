@@ -4,9 +4,9 @@
 2 Crear la taula executant la migració:
 	npx sequelize-cli db:migrate
 	
-3 Generar el seeder (sembrador) dels estudiants, modificar i ficar dades de prova.
+3 Generar el seeder (sembrador) dels estudiants, modificar i ficar dades de prova:
 
-4 Executar el seeder perque faci el INSERT INTO de students
+4 Executar el seeder perque faci el INSERT INTO de students:
 	npx sequelize-cli db:seed:all
 
 5	
