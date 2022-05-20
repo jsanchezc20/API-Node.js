@@ -1,8 +1,8 @@
 P	Investigueu què fan els fitxers package.json i package-lock.json.
 	R	package.json registra informació de configuració del projecte (nom, versió, llicència…etc) així com les dependències necessàries.
 	R	package-lock.json bloqueja les actualitzacions a les dependències del projecte perquè tots els desenvolupadors facin servir les mateixes versions d’aquestes.
-P	Investigueu què és la carpeta node_modules.
 
+P	Investigueu què és la carpeta node_modules.
 	R	És una carpeta que es crea a la carpeta arrel del nostre projecte quan executem:
 		npm install express
 		Aquesta carpeta conté tots els paquets bàsics que necessitem pel nostre projecte de forma local.
